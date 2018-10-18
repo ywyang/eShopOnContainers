@@ -28,7 +28,7 @@ docker build -f ./src/Services/Basket/Basket.API/Dockerfile -t ${REGISTRY}/eshop
 docker build -f ./src/Services/Ordering/Ordering.API/Dockerfile -t ${REGISTRY}/eshop/ordering.api .
 
 #locations.api
-docker build -f ./src/Services/Location/Locations.API/Dockerfile -t ${REGISTRY}/locations.api .
+docker build -f ./src/Services/Location/Locations.API/Dockerfile -t ${REGISTRY}/eshop/locations.api .
 
 #webspa
 docker build -f ./src/Web/WebSPA/Dockerfile -t ${REGISTRY}/eshop/webspa .
