@@ -50,3 +50,9 @@ docker build -f ./src/Services/Identity/Identity.API/Dockerfile -t ${REGISTRY}/e
 
 #webstatus
 docker build -f ./src/Web/WebStatus/Dockerfile -t ${REGISTRY}/eshop/webstatus .
+
+#rabbitmq:3-management-alpine
+#microsoft/mssql-server-linux:2017-latest
+#mongo
+#redis:alpine
+#
