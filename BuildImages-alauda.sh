@@ -52,7 +52,15 @@ docker build -f ./src/Services/Identity/Identity.API/Dockerfile -t ${REGISTRY}/e
 docker build -f ./src/Web/WebStatus/Dockerfile -t ${REGISTRY}/eshop/webstatus .
 
 #rabbitmq:3-management-alpine
+docker pull rabbitmq:3-management-alpine
+docker tag rabbitmq:3-management-alpine ${REGISTRY}/eshop/rabbitmq:3-management-alpine
 #microsoft/mssql-server-linux:2017-latest
+docker pull microsoft/mssql-server-linux:2017-latest
+docker tag microsoft/mssql-server-linux:2017-latest ${REGISTRY}/eshop/mssql-server-linux:2017-latest
 #mongo
+docker pull mongo
+docker tag mongo ${REGISTRY}/eshop/mongo
 #redis:alpine
+docker pull redis:alpine
+docker tag redis:alpine ${REGISTRY}/eshop/redis:alpine
 #
