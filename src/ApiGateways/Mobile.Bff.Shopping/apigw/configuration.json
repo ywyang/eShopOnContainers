@@ -5,7 +5,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "catalog.api",
+            "Host": "catalog-api",
             "Port": 80
           }
         ],
@@ -17,7 +17,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "basket.api",
+            "Host": "basket-api",
             "Port": 80
           }
         ],
@@ -33,7 +33,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "ordering.api",
+            "Host": "ordering-api",
             "Port": 80
           }
         ],
@@ -65,7 +65,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "ordering.api",
+            "Host": "ordering-api",
             "Port": 80
           }
         ],
@@ -77,7 +77,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "basket.api",
+            "Host": "basket-api",
             "Port": 80
           }
         ],
@@ -89,7 +89,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "catalog.api",
+            "Host": "catalog-api",
             "Port": 80
           }
         ],
@@ -101,7 +101,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "payment.api",
+            "Host": "payment-api",
             "Port": 80
           }
         ],
