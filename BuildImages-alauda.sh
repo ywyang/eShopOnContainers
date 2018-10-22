@@ -48,6 +48,19 @@ docker build -f ./src/Services/Catalog/Catalog.API/Dockerfile -t ${REGISTRY}/esh
 #identity.api
 docker build -f ./src/Services/Identity/Identity.API/Dockerfile -t ${REGISTRY}/eshop/identity.api .
 
+#mobileshoppingapigw.dockerfile
+docker build -f ./mobileshoppingapigw.dockerfile -t ${REGISTRY}/eshop/mobileshoppingapigw .
+
+#mobilemarketingapigw.dockerfile
+docker build -f ./mobilemarketingapigw.dockerfile -t ${REGISTRY}/eshop/mobilemarketingapigw .
+
+#webshoppingapigw.dockerfile
+docker build -f ./webshoppingapigw.dockerfile -t ${REGISTRY}/eshop/webshoppingapigw .
+
+#webmarketingapigw.dockerfile
+docker build -f ./webmarketingapigw.dockerfile -t ${REGISTRY}/eshop/webmarketingapigw .
+
+
 #webstatus
 docker build -f ./src/Web/WebStatus/Dockerfile -t ${REGISTRY}/eshop/webstatus .
 
